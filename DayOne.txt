@@ -1,0 +1,87 @@
+làm hồ sơ
+https://drive.google.com/drive/folders/1clnA2clV1XEE_XftHiZlKlCQwngbobQO
+git : duyanh.dang0109@gmail.com/dafromsapo
+https://viblo.asia/p/mysql-stored-procedure-3wjAM7BgRmWe
+https://viblo.asia/p/function-nguoi-dung-tu-dinh-nghia-trong-sql-GrLZDva35k0#_vi-du-cu-the-8
+https://www.javatpoint.com/mysql-transaction
+https://viblo.asia/p/su-dung-index-trong-sql-query-1ZnbRlPQR2Xo
+
+
+tí test 2 commit giống nhau
+Git
+git stash save -u "luu nhap" (lưu những file chưa commit)
+git stash apply (load lại stash mới nhất)
+
+git commit --amend (commit đè lên cái commỉt cũ gần nhất -> khác commit trên cloud ko push đc)  ??? sao k commit tên trùng c
+git push --force (ghi đè thay commit trên cloud)
+
+đổi tên commit (giả sử trc khi push có 2 commit f1, f2 đổi thành f): sourcetreeappp => reset
+
+merge 2 commit trên origin, down về sourcetreeapp => reset => force push
+
+Ex4
+Link Spring Profile:
+https://viblo.asia/p/huong-dan-su-dung-spring-properties-voi-atconfigurationproperties-Ljy5VYJMlra
+https://viblo.asia/p/spring-boothuong-dan-su-dung-spring-profiles-1Je5E4ojlnL
+https://techmaster.vn/posts/36165/spring-boot-1-huong-dan-component-va-autowired
+
+IcO 
+Nãy giờ hiểu thì Inversion of Control kiểu cho cấu hình với dependency vào cái container nào đấy 
+Lớp A phụ thuộc lớp B nếu nó dùng method của lớp B
+Tightly Coupled hard code khi implement với data
+ 
+Nói chung IoC quản lý tất cả các cấu hình và khởi tạo (đầu vào dữ liệu)
+Dependency injection là đưa vào các phụ thuộc thông qua phương thức khởi tạo
+
+Application.yml
+-	Cấu hình application.yml
+-	@Component @Value @Autowired
+
+- Ex05
++ In dữ liệu các bảng
++ Lớp service xử lý các sql
++ JDBC kết nối CSDL
++ JdbcTemplate ????
+NamedParameterJdbcTemplate   ?????
++ SimpleJdbc    ????
+JPA truy vấn CSDL ?????
+có exception validate dữ liệu
+
+connect jdbc dễ này: https://www.codejava.net/frameworks/spring-boot/connect-to-mysql-database-examples
+tạm : https://hocspringboot.net/2020/11/30/spring-jdbc-trong-ung-dung-spring-boot/
+ok: https://www.bezkoder.com/spring-boot-jdbctemplate-example-mysql/ 
+
+SimpleJdbcInsert: https://www.tutorialspoint.com/springjdbc/springjdbc_simplejdbcinsert.htm
+Như này cho nhanh: https://www.concretepage.com/spring/simplejdbcinsert-spring-example
+
+JPA : https://techmaster.vn/posts/36182/spring-boot-11-huong-dan-spring-boot-jpa-mysql
+https://www.codejava.net/frameworks/spring-boot/spring-boot-spring-data-jpa-mysql-example
+
+--Day two
+jdbc join mapper
+https://stackoverflow.com/questions/43636833/spring-jdbctemplates-execute-a-query-with-join?fbclid=IwAR3EdXW33rSkJXF-DprMGNC5-wB1HXitVK6iojUqRVMX1TdDYQBzQlTLFnw
+https://stackoverflow.com/questions/40500733/how-to-implement-join-query-in-spring-jdbctemplate?fbclid=IwAR0-1pZCZVLwsj691Cg5Isdd5XmD-ZQa1YhignDkS0Vuf-9WEm1E0O2EMa0
+
+jpa join mapper
+https://stackoverflow.com/questions/64762080/how-to-map-sql-native-query-result-into-dto-in-spring-jpa-repository?fbclid=IwAR0-QjwPtxtHTEX_MbT-Ul5DT02DLvqwTm-FrqQHA6S75hZlMkXdE8GijA8
+https://thorben-janssen.com/spring-data-jpa-dto-native-queries/?fbclid=IwAR3lR0-ZrnIwy_6MmypXlKyN3tivVSAD-5R-0uzGGuovDnh4lUpKw9JwaGA
+
+Ex8:
+exception: https://techmaster.vn/posts/36188/spring-boot-15-exception-handling-atexceptionhandler-atrestcontrolleradvice-atcontrolleradvice-atresponsestatus
+security: https://viblo.asia/p/huong-dan-spring-security-jwt-json-web-token-hibernate-oOVlYGmoK8W
+
+
+Kafka
+https://github.com/webmak1/Kafka-Tutorial
+broker là cái máy hoặc VM chạy Kafka process
+
+https://github.com/webmak1/Kafka-Tutorial
+https://www.geeksforgeeks.org/how-to-install-and-run-apache-kafka-on-windows/
+https://www.youtube.com/watch?v=SqVfCyfCJqw
+
+rabbitmq: 
+https://www.javainuse.com/misc/rabbitmq-hello-world
+https://www.javainuse.com/spring/spring-boot-rabbitmq-hello-world
+https://www.javainuse.com/messaging/rabbitmq/listeners
+
+react: virtualDOM, memo, useCallBack, useMemo, 

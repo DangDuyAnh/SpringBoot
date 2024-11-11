@@ -1,0 +1,16 @@
+#atm:
+#  initMoney: 200000000
+#file:
+#  path: Out.txt
+
+---
+spring.profiles: first
+spring.profiles.include: first, common
+---
+spring.profiles: second
+spring.profiles.include: second, common
+---
+spring:
+  profiles:
+    active: second
+---

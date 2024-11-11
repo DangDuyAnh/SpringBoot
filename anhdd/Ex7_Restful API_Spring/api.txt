@@ -1,0 +1,98 @@
+1. category
+base: "/api/admin/categories"
+- get
+	param page, limit (optional)
+	lấy ra tất cả các danh mục theo phân trang
+- get
+	/id
+	lấy ra một danh mục theo id
+- post
+	body: 
+		categoryCode String,
+		categoryName String,
+		descript
+	thêm một danh mục
+- put
+	/id
+	body:
+		categoryCode String,
+		categoryName String,
+		descript
+	sửa một danh mục theo id
+- delete
+	/id
+	xóa một danh mục theo id
+- delete
+	/deleteWithMappingProducts/id
+*	transaction xóa danh mục và các sản phẩm kèm theo
+
+2. category-with-amount
+- get
+	url: "/api/admin/category-with-amount"
+*	lấy ra danh mục và số lượng sản phẩm trong danh mục
+
+3. Product
+base: "/api/admin/products"
+- get
+	param page, limit (optional)
+	lấy ra tất cả các sản phẩm theo phân trang
+- get
+	/id
+	lấy ra một sản phẩm theo id
+- get
+	/top-sell
+	param k
+*	lấy ra top k sản phẩm số lượng bán nhiều nhất
+- post
+	body: 
+		productCode String,
+		category int
+		store int
+		productName String,
+		descript String,
+		valAmount int,
+		soldAmount int,
+		price int
+	thêm một sản phẩm
+- put
+	/id
+	body:
+		productName String
+		productCode String
+	sửa tên và mã sản phẩm
+- delete
+	/id
+	xóa sản phẩm theo id
+
+4. Store
+base: "/api/admin/stores"
+- get
+	lấy ra tất cả các kho
+- get
+	/id
+	lấy ra kho theo id
+- post
+	body:
+		storeCode String
+		storeName String
+		address String
+	tạo một kho
+- put
+	/id
+	body:
+		storeCode String
+		storeName String
+		address String
+	sửa một kho theo id
+- delete
+	/id
+	xóa một kho theo id
+
+5. Lọc các sản phẩm có chứa từ 'Điện Thoại' và thuộc loại danh mục có tên là 'Apple'
+base: "/api/admin/product-with-category"
+- post
+	body:
+		{
+		"categoryName": "Apple",
+		"productName": "Điện thoại" 
+		}

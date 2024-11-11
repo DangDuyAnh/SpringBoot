@@ -1,0 +1,32 @@
+[
+{
+    "id": 6874987918,
+    "username": "ImDAcute",
+    "firstName": "duy",
+    "lastName": "anh",
+    "email": "da@gmail.com",
+    "password": "1234",
+    "phone": "013251",
+    "userStatus": 0
+},
+{
+    "id": 1,
+    "username": "PinkySmallz",
+    "firstName": "Pig",
+    "lastName": "Pink",
+    "email": "pig@gmail.com",
+    "password": "12345",
+    "phone": "0412412",
+    "userStatus": 1
+},
+{
+    "id": 1,
+    "username": "Mono",
+    "firstName": "Son",
+    "lastName": "Tung",
+    "email": "mono@gmail.com",
+    "password": "2345",
+    "phone": "0412414",
+    "userStatus": 0
+}
+]

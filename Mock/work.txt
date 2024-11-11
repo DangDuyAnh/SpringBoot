@@ -1,0 +1,20 @@
+tìm kiếm đơn hàng
+lọc đơn hàng theo trạng thái
+tiếp nhận đăng kí
+hoàn tiền
+tìm kiếm, sửa xóa shop
+
+quản lí các shop (tìm kiếm, tiếp nhận đăng kí, xem lịch sử)
+quản lí nhân viên (nv giao hàng + nv điều phối)
+Vận chuyển (Dòng tiền nộp về)
+COD và phí cho chủ shop
+quản lí các đơn hàng
+
+https://phoenixnap.com/kb/how-to-reset-mysql-root-password-windows-linux
+
+ds-khach-hang-dang-ky
+khach-hang-dang-ky/:id
+them-nhan-vien
+danh-sach-nhan-vien
+
+eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtYW5hZ2VyMCIsImlhdCI6MTY3NzE4MzEyMSwiZXhwIjoxNjc3MjAxMTIxfQ.-_8-4OQHe0461OyeNzm2vSoksAfx6N46Yk4bAnA8wwVHG7kwJ6cgUeYo_7LEWio3kdXpc-fboK1smTN1cQB8wQ

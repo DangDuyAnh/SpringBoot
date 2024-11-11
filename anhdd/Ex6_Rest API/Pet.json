@@ -1,0 +1,56 @@
+[
+{
+    "id": 9223372036854287052,
+    "category": {
+        "id": 0,
+        "name": "string"
+    },
+    "name": "Emily",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 0,
+            "name": "string"
+        }
+    ],
+    "status": "available"
+},
+{
+    "id": 9223372036854287087,
+    "category": {
+        "id": 1,
+        "name": "Dragon"
+    },
+    "name": "Drogon",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 0,
+            "name": "string"
+        }
+    ],
+    "status": "available"
+},
+{
+    "id": 9223372036854287087,
+    "category": {
+        "id": 2,
+        "name": "Fox"
+    },
+    "name": "Nick",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 0,
+            "name": "string"
+        }
+    ],
+    "status": "available"
+}
+]

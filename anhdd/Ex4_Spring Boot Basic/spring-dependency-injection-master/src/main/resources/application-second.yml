@@ -1,0 +1,4 @@
+atm:
+  initMoney: 400000000
+file:
+  path: Out2.txt

@@ -1,0 +1,21 @@
+2024-09-24 13:26:35.988  INFO 29108 --- [main] com.sapo.edu.demo.DemoApplication        : Starting DemoApplication on AnhDD-TTS with PID 29108 (started by duyan in E:\E\Sapo\anhdd\Ex4_Spring Boot Basic\spring-dependency-injection-master)
+2024-09-24 13:26:35.993  INFO 29108 --- [main] com.sapo.edu.demo.DemoApplication        : The following profiles are active: second,common
+2024-09-24 13:26:36.674  INFO 29108 --- [main] com.sapo.edu.demo.DemoApplication        : Started DemoApplication in 1.205 seconds (JVM running for 1.554)
+2024-09-24 13:26:46.387  INFO 29108 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-09-24 13:26:46.394 ERROR 29108 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:784) ~[spring-boot-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:765) ~[spring-boot-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:319) ~[spring-boot-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) ~[spring-boot-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204) ~[spring-boot-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at com.sapo.edu.demo.DemoApplication.main(DemoApplication.java:17) ~[classes/:na]
+Caused by: java.lang.NullPointerException: Cannot invoke "java.math.BigDecimal.toString()" because "this.moneyAtm" is null
+	at com.sapo.edu.demo.BidvAtm.printCurrentMoney(BidvAtm.java:48) ~[classes/:na]
+	at com.sapo.edu.demo.DemoApplication.run(DemoApplication.java:54) ~[classes/:na]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:781) ~[spring-boot-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	... 5 common frames omitted
+
